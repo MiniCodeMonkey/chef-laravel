@@ -9,7 +9,7 @@
 app_name = "#{node['laravel']['name']}"
 
 # Enable vhost
-web_app app_name do
+web_app "0000-" + app_name do
   server_name node['laravel']['server_name']
   server_aliases node['laravel']['server_aliases']
   docroot node['laravel']['docroot']
