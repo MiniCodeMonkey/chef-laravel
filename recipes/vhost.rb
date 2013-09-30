@@ -17,6 +17,6 @@ web_app "0000-" + app_name do
 end
 
 # Disable default vhost config
-apache_site "000-default" do
+apache_site "default" do
   enable false
 end
